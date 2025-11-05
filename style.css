@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black; /* Mudar a cor do fundo*/
+}
+
+
+li a{
+ text-decoration: none; /*Remove o sublinhado */
+ font-size: 20px; /* Tamanho da font*/
+ color: #ffffff;
+}
+/* Remover a formatação da lista
+ */
+li {
+    list-style: none; 
+}
+
+#logo{
+
+height: 100px; /*Altura*/
+width: 180px; /*Largura*/
+}
+
+ul{
+  display: flex; /*indica a propriedade Flexbox
+  flex-direction: row; /*colocar os elementos na horizontal ou na vertical*/
+
+}
