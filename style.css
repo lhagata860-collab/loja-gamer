@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black; /* Mudar a cor do fundo*/
 }
 
 
@@ -9,6 +8,7 @@ li a{
  text-decoration: none; /*Remove o sublinhado */
  font-size: 20px; /* Tamanho da font*/
  color: #ffffff;
+ padding: 20px;
 }
 /* Remover a formatação da lista
  */
@@ -18,12 +18,25 @@ li {
 
 #logo{
 
-height: 100px; /*Altura*/
-width: 180px; /*Largura*/
+height: 90px; /*Altura*/
+width: 140px; /*Largura*/
 }
 
 ul{
   display: flex; /*indica a propriedade Flexbox
   flex-direction: row; /*colocar os elementos na horizontal ou na vertical*/
+   align-items: center;
+  background-color: bisque;
+}
 
+.menu{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.caixa-img-logo{
+ background-color: blue;
+  height: 90px;
+  width: 90px;
 }
