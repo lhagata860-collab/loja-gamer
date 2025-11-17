@@ -56,3 +56,157 @@ ul{
   width: 800px;
   border-radius: 25px;
 }
+*{
+  padding: 0;
+  margin: 0;
+  /* background-color: #1a1a1a; Mudar a cor do fundo */
+}
+
+body{
+  background-color: #1a1a1a;
+}
+li a{
+text-decoration: none; /*Remove o sublinhado */
+font-size: 20px; /* Tamanho da font*/
+color: #ffffff; /*Mudar a cor da font*/
+padding: 20px;
+}
+
+li{
+  list-style: none; /* Remover formartação da lista*/
+}
+
+#logo{
+
+  height: 90px; /*Altura*/
+  width: 140px; /*Largura*/
+}
+
+ul{
+  display: flex; /*Indica a prpriedade FlexBox*/
+  flex-direction: row; /*Colocar os elementos na horizontal ou na vertical*/
+
+
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+
+.caixa-img-logo{
+  height: 90px;
+  width: 90px;
+}
+
+.bi{
+
+  font-size: 30px;
+  color: #4c544c;
+}
+
+.container {
+width: 100%; /* Garante que o container ocupe 100% da largura do elemento pai */
+max-width: 1200px; /* Define a largura máxima que o container pode atingir */
+margin: 0 auto; /* Centraliza o container horizontalmente */
+padding: 0 15px; /* Adiciona um espaçamento nas laterais para evitar que o conteúdo fique colado na tela */
+} 
+
+.banner{
+  background-image:url("./assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 800px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.texto-banner{
+  font-size: 25px;
+  color: #ffffff;
+}
+.btn-menu{
+width: 145px;
+height: 40px;
+border-radius: 30px;
+background-color: #333333;
+color: #ffffff;
+font-weight: bold;
+border: none;
+font-size: 19px;
+margin: 25px;
+}
+
+.caixa-texto-banner{
+width: 220px;
+padding: 35px; /*Espaçamento interno*/
+}
+.section-center{
+
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-primario{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight:700;
+  padding: 20px;
+}
+
+.estutura-titulo{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.produtos{
+  height: 350px;
+width: 190px;
+
+
+
+}
+
+.valor{
+font-weight: bold;
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+
+
+}
+
+.cores{
+height:15px;
+width: 15px;
+border-radius: 100%;
+}
+
+.vermelho{
+ background-color: red;
+
+}
+
+.azul{
+  background-color: blue;
+}
+
+.laranja{
+  background-color: orange;
+}
+
+.preto{
+background-color: black;
+}
+
+.caixa-cores{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 100px;
+}
